@@ -1,0 +1,17 @@
+Overlay two images
+
+          <!-- <div class="card-img-top text-center">
+             
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x icon-background secondtop"></i>
+              <i class="fas fa-running fa-stack-1x offtop"></i>
+            </span>
+            
+
+          </div> -->
+
+
+            background-image: url("https://bootimpact--josemurillo4.repl.co/static/img/texture.png");
+
+            
+#6475a8
