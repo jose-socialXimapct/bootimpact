@@ -1,25 +1,25 @@
-
-/* Font */
+/* Brand Code */
 :root{
   --main-color: #fce218;
   --secondary-color: #535353;
+  --tertiary-color: #5c6ea8;
+  --white-color: white;
   --main-font: 'Merriweather', serif;
   --title-font:  'Expletus Sans', cursive;
 }
 
-/* Background pattern from Toptal Subtle Patterns */
+
 body {
   font-family: var(--main-font);
   padding-top: 8em;
+}
 
 }
+
 h1, #navbarNav > ul > li > a {
   font-family: var(--title-font)
 }
 
-nav {
-  background-color: var(--secondary-color);
-}
 
 i {
   color: white;
@@ -28,6 +28,11 @@ i {
 
 .nopad {
   padding: 0px;
+}
+
+/* Color */
+nav {
+  background-color: var(--secondary-color);
 }
 
 .offback{
@@ -44,9 +49,27 @@ i {
   color: var(--secondary-color)
 }
 
+.thirdback{
+  background-color: var(--tertiary-color);
+}
+
+.thirdtop{
+  color: var(--tertiary-color)
+}
+
+.whiteback{
+  background-color: var(--white-color);
+}
+
+.whitetop{
+  color: var(--white-color)
+}
+
 .card{
   width: 18rem;
 }
+
+/* Spacing */
 
 .container-fluid, .container{
   padding-top: 2.5em;
@@ -65,7 +88,6 @@ i {
   padding-bottom: 3em;
 }
 
-/* Logo */
 
 /* Level 1 */
 
@@ -90,51 +112,6 @@ i {
   font-family: 'Expletus Sans', cursive;
 }
 
-/* Level 2 */
-
-.x-2 {
-  color: #fce218;
-  font-size: 3em;
-  font-family: 'Expletus Sans', cursive;
-}
-.i-2 {
-  color: #fce218;
-  font-size: 1.5em;
-  font-family: 'Expletus Sans', cursive;
-}
-.logo-whitepass-2{
-  color: #535353;
-  font-size: 2em;
-  font-family: 'Expletus Sans', cursive;
-}
-.logo-darkpass-2{
-  color: white;
-  font-size: 2em;
-  font-family: 'Expletus Sans', cursive;
-}
-
-/* Level 8 */
-
-.x-8 {
-  color: #fce218;
-  font-size: 12em;
-  font-family: 'Expletus Sans', cursive;
-}
-.i-8 {
-  color: #fce218;
-  font-size: 6em;
-  font-family: 'Expletus Sans', cursive;
-}
-.logo-whitepass-8{
-  color: #535353;
-  font-size: 8em;
-  font-family: 'Expletus Sans', cursive;
-}
-.logo-darkpass-8{
-  color: white;
-  font-size: 8em;
-  font-family: 'Expletus Sans', cursive;
-}
 
 /* Header */
 #navbarNav > ul > li > a {
@@ -142,10 +119,6 @@ i {
   font-size: 1.2em;
   margin: 1em;
 }
-
-
-
-
 
 
 /* Cards */
